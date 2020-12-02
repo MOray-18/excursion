@@ -129,6 +129,15 @@ table {
   border-spacing: 0;
 }
 
+/* Grid */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /* Univesal Styles */
 html {
   background-color: black;
@@ -151,4 +160,10 @@ a {
 h2 {
   font-size: 44px;
   font-weight: 300;
+}
+
+/* Main Section */
+.main p {
+  font-size: 21px;
+  color: gray;
 }
