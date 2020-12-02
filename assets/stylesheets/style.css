@@ -130,6 +130,7 @@ table {
 }
 
 /* Grid */
+
 *,
 *:before,
 *:after {
@@ -138,7 +139,22 @@ table {
   box-sizing: border-box;
 }
 
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 1250px;
+}
+
+h1,
+h2,
+p,
+video {
+  margin-bottom: 22px;
+}
+
 /* Univesal Styles */
+
 html {
   background-color: black;
   font-family: verdana, helvetica;
@@ -147,7 +163,8 @@ html {
 }
 
 /* Header */
-.heading {
+
+h1 {
   font-size: 50px;
   font-weight: normal;
 }
@@ -157,12 +174,13 @@ a {
   color: aquamarine;
 }
 
+/* Main Section */
+
 h2 {
   font-size: 44px;
   font-weight: 300;
 }
 
-/* Main Section */
 .main p {
   font-size: 21px;
   color: gray;
